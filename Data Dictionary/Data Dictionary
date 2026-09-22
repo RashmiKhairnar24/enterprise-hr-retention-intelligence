@@ -1,0 +1,40 @@
+# 3. Data Dictionary
+
+## Employees Table
+
+| Column | Data Type | Description |
+|---|---|---|
+| employee_id | Text | Unique employee identifier |
+| full_name | Text | Employee name |
+| department_id | Text | Department identifier |
+| job_level | Text | Employee job level |
+| gender | Text | Employee gender |
+| tenure_years | Decimal | Employee tenure in years |
+| salary | Integer | Employee annual salary |
+| satisfaction_score | Decimal | Employee satisfaction score |
+| performance_rating | Text | Employee performance category |
+| manager_id | Text | Manager identifier |
+| hire_date | Date | Employee hiring date |
+| employment_status | Text | Current employment status |
+| last_promotion_years | Integer | Years since last promotion |
+| Age | Integer | Employee age |
+| Tenure Band | Text | Categorized employee tenure |
+| Salary Band | Text | Categorized salary range |
+| Age Group | Text | Categorized employee age |
+
+## Attrition Events Table
+
+| Column | Data Type | Description |
+|---|---|---|
+| employee_id | Text | Employee associated with the attrition event |
+| exit_date | Date | Employee departure date |
+| exit_reason | Text | Reason for employee departure |
+| destination | Text | Employee destination after leaving |
+
+## Departments Table
+
+| Column | Data Type | Description |
+|---|---|---|
+| department_id | Text | Unique department identifier |
+| department_name | Text | Department name |
+| headcount_budget | Integer | Planned department headcount |
