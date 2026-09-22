@@ -17,3 +17,32 @@
 | `Tenure Band`          | Text      | Categorized employee tenure                                 |
 | `Salary Band`          | Text      | Categorized salary range                                    |
 | `Age Group`            | Text      | Categorized employee age group                              |
+
+Attrition Events Table
+| Column        | Data Type | Description                                                     |
+| ------------- | --------- | --------------------------------------------------------------- |
+| `employee_id` | Text      | Employee associated with the attrition event                    |
+| `exit_date`   | Date      | Date the employee left the organization                         |
+| `exit_reason` | Text      | Recorded reason for employee departure                          |
+| `destination` | Text      | Destination/category associated with the employee after leaving |
+
+Departments Table
+| Column             | Data Type | Description                                   |
+| ------------------ | --------- | --------------------------------------------- |
+| `department_id`    | Text      | Unique identifier for the department          |
+| `department_name`  | Text      | Name of the department                        |
+| `headcount_budget` | Integer   | Planned/budgeted headcount for the department |
+
+Data Usage
+| Analysis Area      | Examples                        |
+| ------------------ | ------------------------------- |
+| Workforce          | Headcount, active employees     |
+| Attrition          | Leavers, attrition rate         |
+| Employee Profile   | Age, gender, tenure             |
+| Compensation       | Salary and salary bands         |
+| Satisfaction       | Satisfaction scores             |
+| Performance        | Performance ratings             |
+| Organization       | Departments and job levels      |
+| Management         | Manager-level analysis          |
+| Exit Analysis      | Exit reasons and destinations   |
+| Workforce Planning | Department headcount vs. budget |
